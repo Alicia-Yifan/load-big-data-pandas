@@ -69,3 +69,9 @@ scoredf = pd.read_csv(f,engine = 'c',skiprows =[1],usecols =score+lists+['flag_s
     ws.add_chart(c1, "A20")
   wb.save(url)
   ```
+## 4.Compute K-S value
+
+| Evalution Method | Function | Meaning |  
+|------------------|----------|---------|
+| ROC curve |a graphical plot that illustrates the **diagnostic ability** of a binary classifier system as its **discrimination threshold** is varied. | a curve x-axis: FPR, y-axis : TPR |
+|  K-S test | used to test whether two underlying one-dimensional **probability distributions differ** | max(TPR- FPR)
