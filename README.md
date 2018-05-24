@@ -3,6 +3,8 @@ load big data pandas by using pandas package pandas
 
 This .py file aims to load big data by setting parameters of pd.read_csv() and there is some explanations of it. 
 
+I am sorry that dataset can not be loaded due to privacy. Here, i just describe the data main function of this file. 
+
 ## 1. Data Type and Data Blocks:
 At bottom, pandas will calssify data by **data type** into **data blocks**, here are the relationship between data type and data block. 
 
