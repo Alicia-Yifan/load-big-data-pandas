@@ -144,7 +144,7 @@ def insert_plot(url,start_row,y_title=None,x_title=None):
     c1.add_data(data, titles_from_data=True)
     titles = Reference(ws, min_col=1, min_row=2, max_row=15)
     c1.set_categories(titles)
-    for i in range(3):
+    for i in range(start_row):
       s1 = c1.series[i]
       s1.graphicalProperties.line.solidFill = colors[i]
     ws.add_chart(c1, "A20")
