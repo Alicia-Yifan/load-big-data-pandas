@@ -5,11 +5,11 @@ This .py file aims to load big data by setting parameters of pd.read_csv() and t
 
 ## 1. Data Type and Data Blocks:
 At bottom, pandas will calssify data by **data type** into **data blocks**, here are the relationship between data type and data block. 
-Data Type | Data Blocks
-----------|------------
-string | Objectblock
-float | floatblock 
-int | intblock 
+|Data Type | Data Blocks|
+|----------|------------|
+|string | Objectblock|
+|float | floatblock| 
+|int | intblock| 
 
 Besides that every data type has different sub data type. Every the relationship betweeen data type and memory usage is listed as followings.
 
